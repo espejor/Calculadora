@@ -47,7 +47,6 @@ public abstract class Tecla {
 
     protected void ejecutaOperacion() {
         Controlador.sendToDisplay(getExpresion().ejecutarOperacion().toString());
-
     }
 
     protected void resetOperando2() {
